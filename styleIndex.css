@@ -7,7 +7,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50px;
-  padding: 10px;
+  padding: auto;
   margin-bottom: 5vh;
 }
 
@@ -17,7 +17,7 @@ header nav ul {
   align-items: center;
 }
 
-ul img {
+#logo {
   min-height: 10vh;
   width: 10vh;
   border-radius: 50%;
@@ -33,24 +33,81 @@ body {
 }
 
 nav ul {
+  color: firebrick;
   list-style-type: none;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 10 px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
 }
 
+nav ul li {
+  background-color: cyan;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+nav ul li:hover {
+  opacity: 1;
+}
+
 .titre {
   min-height: 5vh;
   width: 100%;
   color: antiquewhite;
-  background-image: url(./assets/img/etoiles.webp);
+  background-image: url("./assets/img/etoiles.webp");
   font-weight: bold;
   display: flex;
   justify-content: center;
   border-radius: 50px;
+  margin: 5vh;
+}
+
+.images {
+  text-align: center;
+}
+
+.texte {
+  min-height: 20vh;
+  width: 100%;
+  text-align: center;
+}
+
+.caroussel {
+  min-height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  min-height: 10vh;
+  width: 100%;
+  background-image: url("./assets/img/etoiles2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px;
+
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+footer .navFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: antiquewhite;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+footer .navFooter i {
+  font-size: 3rem;
 }
 h1 {
   min-width: 50%;
