@@ -52,3 +52,36 @@ nav ul {
   justify-content: center;
   border-radius: 50px;
 }
+h1 {
+  min-width: 50%;
+  text-align: center;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+.images img {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.imageAccueil1 {
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.imageAccueil1 img {
+  height: auto;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
